@@ -1,6 +1,8 @@
-// import Team from './Team';
+import Team from './Team';
 
-// const team = new Team();
-// for (const char of team) {
-//   console.log(char);
-// }
+const team = new Team();
+for (const char of team) {
+  console.log(char);
+}
+
+console.log([...team]);
